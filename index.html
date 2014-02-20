@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>jquery.slider.js</title>
+<script src="js/jquery.js"></script>
+<script src="js/jquery.slider.js"></script>
+<link rel="stylesheet" type="text/css" href="css/slider.css">
+
+<style>
+#left-slider-base, #right-slider-base{
+    width : 100px;
+    height : 30px;
+    -webkit-appearance: menulist-button;
+    font-size : 16px;
+}
+#text{
+    font-size : 20px;
+    margin-left : 20px;
+}
+body{
+    padding : 20px;
+}
+#form{
+    margin : 10px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div id="form">
+<span id="text">
+From : 
+</span>
+
+<select id="left-slider-base">
+    <option value="0">0</option>
+    <option value="1000">1000</option>
+    <option value="2000">2000</option>
+    <option value="3000">3000</option>
+    <option value="4000">4000</option>
+    <option value="5000">5000</option>
+</select>
+
+<span id="text">
+To : 
+</span>
+
+<select id="right-slider-base">
+    <option value="0">0</option>
+    <option value="1000">1000</option>
+    <option value="2000">2000</option>
+    <option value="3000">3000</option>
+    <option value="4000">4000</option>
+    <option value="5000" selected>5000</option>
+</select>
+</div>
+
+<script src="js/init.js"></script>
+</body>
+</html>
